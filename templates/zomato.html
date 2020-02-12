@@ -1,0 +1,53 @@
+  <!doctype html>
+<html>
+<head>
+    <title>
+        Zomato
+    </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    {% for i in new %}
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-8">
+            <div class="card w-100">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="{{ i['restaurant']['thumb'] }}">
+                </div>
+                <div class="col-md-4">
+                        <div class="card-body">
+                        <h5 class="card-title">{{ i['restaurant']['name'] }}</h5>
+                        <h6 class="card-title">Location:</h6>
+                        <p class="card-text">{{ i['restaurant']['location']['locality'] }}</p>
+                        <h6 class="card-title">Rating:</h6>
+                        <p class="card-text">{{ i['restaurant']['user_rating']['aggregate_rating'] }}</p>
+                        </div>
+                </div>
+                    
+                
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <h6 class="card-title">Cost For Two:</h6>
+                        <p class="card-text">{{ i['restaurant']['average_cost_for_two'] }}</p>
+                        <button onclick="window.location.href='{{ i['restaurant']['url'] }}'" class="btn btn-primary">View Deal</button>
+                    </div>
+                </div>   
+            </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+    {% endfor %}
+</body>
+</html>
+
