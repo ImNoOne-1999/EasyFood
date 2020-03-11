@@ -10,9 +10,84 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+
+<!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="/static/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="/static/css/linearicons.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="/static/css/animate.css">
+
+		<!--flaticon.css-->
+        <link rel="stylesheet" href="/static/css/flaticon.css">
+
+		<!--slick.css-->
+        <link rel="stylesheet" href="/static/css/slick.css">
+		<link rel="stylesheet" href="/static/css/slick-theme.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="/static/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="/static/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="/static/css/responsive.css">
+
+
+
+
+
+
+
 </head>
 <body>
+
     
+			
+			<div class="card text-black bg-danger mb-3" style="padding: 35px;" >
+				<div class="welcome-hero-serch-box">
+					<div class="welcome-hero-form">
+						<div class="single-welcome-hero-form">
+							<h3>what?</h3>
+							<form action="/index" method="POST">
+								<input type="text" name="name" id="name" placeholder="Ex: resturent or food" />
+							
+							<div class="welcome-hero-form-icon">
+								<i class="flaticon-list-with-dots"></i>
+							</div>
+						</div>
+						<div class="single-welcome-hero-form">
+							<h3>nagpur</h3>
+							
+							<div class="welcome-hero-form-icon">
+								<i class="flaticon-gps-fixed-indicator"></i>
+							</div>
+						</div>
+					</div>
+					<div class="welcome-hero-serch">
+					
+						<button class="welcome-hero-btn">
+							 search  <i data-feather="search"></i> 
+						</button>
+					</form>
+					</div>
+				</div>
+                <div>
+                    <br>
+                </div>
+            </div>
+
+		
+
     {% for i in new %}
     <div class="row">
         <div class="col-md-2">
@@ -25,6 +100,7 @@
                 </div>
                 <div class="col-md-4">
                         <div class="card-body">
+                        
                         <h5 class="card-title">{{ i['restaurant']['name'] }}</h5>
                         <h6 class="card-title">Location:</h6>
                         <p class="card-text">{{ i['restaurant']['location']['locality'] }}</p>

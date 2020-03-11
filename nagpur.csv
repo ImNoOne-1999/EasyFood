@@ -1,0 +1,28 @@
+id,name,avgRating,address-,cuisines,cost for two
+0,Nosh Relation of Sandwich,3.8,Near Traffic Park; Dharampeth; Nagpur,['Fast Food'],40000
+1,New Amar Prem,--,Vadra Road; Sitabuldi; Nagpur,['Fast Food'],30000
+2,The Kathi Crossing,4.3,heritage Hotel; Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Fast Food'],20000
+3,Sandwich Adda,3.9,Shop NO 6B/N.I.T Complex ; Ganeshpeth ; Nagpur,['Fast Food'  'Beverages'  'Pizzas'  'Snacks'],20000
+4,Suryakant Saoji,4.0,Telephone Exchange Chowk; Old Mangalwari; Nagpur,['Indian'  'North Indian'],30000
+5,The Kukku's Sandwiches,4.0,Plot No. 06; Near Tilak Putala; Behind Surbhi Girls Hostel; Tilak Nagar; Nagpur,['Fast Food'  'Chinese'  'Desserts'  'Beverages'],25000
+6,Novelty Pure Veg Restaurant,3.7,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+7,Zinea,3.9,56;chitnavis centre;temple road;civil lines,['Fast Food'  'Pizzas'  'Pastas'],40000
+8,Krishnum Food Plaza,4.2,Mount Road; Sadar; Nagpur,['Indian'  'Fast Food'],40000
+9,JD's Kitchen - The Rice Bowl Co.,4.1,Kamlakar Palace; oppo. NIT garden; near shankar nagar square; Nagpur,['Indian'  'Combo'],20000
+10,Foody Moody,3.7,Juni mangalwari Chandrasekhar Azad chouk  Bujade mohalla  Near patimay mandir Nagpur 440008,['Chinese'  'North Indian'  'Biryani'],40000
+11,Carnations,--,33; Limbanna Enclave; Mount Road; Sadar; Nagpur,['Fast Food'  'Indian'  'Chinese'],80000
+12,Jashn-E-Biryani,3.7,Oye Orange Kitchen; Near Samrat Guest House; Bajeria Chowk; Nagpur - 440018,['Biryani'  'North Indian'  'Mughlai'],25000
+13,Thali Wala,2.9,Plot no 31; Opposite Center Point Hotel; Ramdaspeth; Nagpur,['North Indian'  'Fast Food'],20000
+14,Bangali Babu Sandwiches,3.7,Near City Post Office; Opposite Shanti Dairy; Laxmi Saraswati Kalka Mandir; Itwari; Gandhibagh; Nagpur,['Fast Food'  'Pizzas'],15000
+15,House of Tadka,4.0,221;near lal Bahadur shastri high school; Hanuman Nagar; Nagpur; Maharashtra 440009,['North Indian'  'Tandoor'  'Chinese'],35000
+0,Mr. Meals,--,221;near lal Bahadur shastri high school; Hanuman Nagar; Nagpur; Maharashtra 440009,['Fast Food'  'North Indian'],30000
+1,Matka Biryani,3.7,Kadbi Chowk; Near Lamba Petrol Pump; Sadar; Nagpur,['Biryani'  'North Indian'],30000
+2,Hotel Sujal Saoji,3.8,Plot No.201; Central Bazar Road; Bajaj Nagar; Nagpur,['North Indian'  'Chinese'  'Biryani'  'Seafood'  'Tandoor'],30000
+3,Shree Ganesh Restaurant,3.8,Plot 251 Shree Ganesh Niwas; Datt Nagar; Shastri Nagar Chowk; Near NIT Garden; Wardhaman Nagar; Nagpur,['Chinese'  'North Indian'],25000
+4,Pizza Hut,4.1,PHD Ambazari Nagpur;Plot No 1435;Meghdoor Heights;Shradhand Peth South Ambazari Road Nagpur;Nagpur Maharashtra 440010,['Pizzas'],35000
+5,House of Caffeine,3.5,J 12; Besides Face & Figure Gym; WHC Road; Laxmi Nagar; Nagpur,['Continental'  'Desserts'  'Beverages'],50000
+6,Panino The Sandwich World,4.3,51-54; 1st Floor; Poonam Chambers; Chaoni; Sadar; Nagpur,['Cafe'  'Fast Food'  'Snacks'  'Beverages'],40000
+7,Burger Singh (Big Punjabi Burgers),4.1,Plot no 122; Ambazari Road; Shradhanand peth; Opposite to Tanishq Jewellery Showroom; Nagpur-440010,['Fast Food'  'Snacks'  'Beverages'  'Indian'  'American'  'Desserts'],30000
+8,Anna The Restaurant,3.5,Plot 42; Central Bazar Road; Utakarsh; Bajaj Nagar; Nagpur,['Indian'],30000
+9,Cafe Freezing Point,3.6,10; Naresh Society; Near Ganesh Mandir; Pratap Nagar; Nagpur,['Bakery'  'Fast Food'  'Cafe'  'Beverages'  'Ice Cream'],15000
+10,Sigri,4.0,Byramji Town; Chindwada Road; Sadar; Nagpur,['North Indian'  'Chinese'],60000
