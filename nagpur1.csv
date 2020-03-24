@@ -1,116 +1,321 @@
 id,name,avgRating,address-,cuisines,cost for two
-76241,Pohewala,4.2,Medical Square; Nagpur; Ayodhya Nagar,['Maharashtrian'  'Fast Food'  'Chinese'  'North Indian'],25000
-246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
-228403,Royal Street,4.3,PLOT NO. 112; INDIRA NAGAR; JATTARODI NO. 1; NAGPUR; District - Nagpur-1; STATE - Maharashtra,['Fast Food'  'Pizzas'  'Beverages'  'American'  'Bakery'  'Italian'  'Snacks'],20000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
 81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
-238988,The Food Smugglers,3.8,block no. 715/A/11; main road; kachipura; ramdaspeth; Nagpur,['North Indian'  'Biryani'  'Chinese'],20000
-161788,Coelum Cafe,3.9,lat 4; Plot 67; Indrayani Appartments; Behind Big Bazaar; Ramdaspeth; Nagpur,['Fast Food'  'Beverages'  'Italian'  'Continental'],15000
-73117,Hotel Lucky,3.6,Shyam Talkis Road; Chiknis Park; Gandhibagh; Nagpur,['Biryani'  'Mughlai'  'North Indian'],30000
-89761,New Amar Prem,--,Vadra Road; Sitabuldi; Nagpur,['Fast Food'],30000
-64959,Hotel Ganesh,--,Variety Sq; Main Rd; Opp. eternity mall;sitabuldi,['Indian'],60000
-59252,The Kukku's Sandwiches,4,Plot No. 06; Near Tilak Putala; Behind Surbhi Girls Hostel; Tilak Nagar; Nagpur,['Fast Food'  'Chinese'  'Desserts'  'Beverages'],25000
-76814,Swad,--,No.31; NIT Complex; Ganesh Peth; Gandhibagh; Nagpur,['North Indian'  'Biryani'],40000
-194938,Airport Centre Point - Golden Harvest,4.2,Shop No G1 - G3 & B1 - B3 Girish Heights Near Lic Square Kamptee Road Sadar; Kamptee Rd; Mohan Nagar; Nagpur; Maharashtra 440001; India,['North Indian'  'Indian'  'Chinese'],25000
-56325,The Kathi Crossing,4.3,heritage Hotel; Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Fast Food'],20000
-113393,Sandwich Adda,3.9,Shop NO 6B/N.I.T Complex ; Ganeshpeth ; Nagpur,['Fast Food'  'Beverages'  'Pizzas'  'Snacks'],20000
-60708,Suryakant Saoji,4,Telephone Exchange Chowk; Old Mangalwari; Nagpur,['Indian'  'North Indian'],30000
-64722,Hotel Bartania,3.7,Chindwada Road; Near Anjuman College; Sadar; Nagpur,['Mughlai'],50000
-148928,Spicy Omelette & Chicken,4.3,Mohammed Ali Road; Near Jama Masjid; Mominpura; Nagpur,['Fast Food'],30000
-224045,Hunger Breaker's,--,NIT Complex; Ganeshpeth; Gandhibagh; Nagpur,['Fast Food'],30000
-78746,Babbu Food Plaza,--,136; First Floor; VCA Complex; Sadar; Nagpur,['North Indian'  'Biryani'],60000
-103936,Anaya Bakery,4.2,Plot 17; Teka Naka; Kamatee Road; Jaripatka; Nagpur,['Bakery'],20000
-69963,Oye Orange,3.9,Oye Orange Kitchen; Near Samrat Guest House; Bajeria Chowk; Nagpur - 440018,['Biryani'  'Mughlai'],30000
-59308,Novelty Pure Veg Restaurant,3.7,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
-56457,Zinea,3.9,56;chitnavis centre;temple road;civil lines,['Fast Food'  'Pizzas'  'Pastas'],40000
-164902,Biryani & Curry House,--,Hotel Lucky; Fawwara Chowk; Chitnis Park; Gandhibagh; Nagpur; Maharashtra; India,['Mughlai'],40000
-59397,JD's Kitchen - The Rice Bowl Co.,4.1,Kamlakar Palace; oppo. NIT garden; near shankar nagar square; Nagpur,['Indian'  'Combo'],20000
-72118,Hotel Centre Point,4.1,Central Bazar Road; Hotel Centre Point; Ramdaspeth; Nagpur,['North Indian'  'Chinese'],120000
-185720,Snacks Corner,--,Near kokane master house; rambag; hanuman nagar; ayodhya nagar; nagpur,['Fast Food'],15000
-78131,Mashallah Biryani & Kebabs,3.7,Oye Orange Kitchen; Near Samrat Guest House; Bajeria Chowk; Nagpur - 440018,['Biryani'],30000
-117118,Hotel Al Yaseen,3.7,Oppoite Police Naka; Mominpura; Nagpur,['North Indian'],40000
-63972,Foodway,3.6,Plot No.5; Hanuman Nagar; Above Roopam Traders; Medical Square,['North Indian'  'Maharashtrian'],30000
-128682,Hotel Aalishan,3.7,Mominpura Square; Opposite Islamia school; Mominpura; Nagpur,['North Indian'  'Fast Food'  'Chinese'],25000
-169766,Kumm Me Bumm,--,OPPOSITE HPCL DEPO; WARDHA ROAD; KHAPRI; DIST. NAGPUR; District - Nagpur-2; STATE - Maharashtra,['Indian'],15000
-56382,Krishnum Food Plaza,4.2,Mount Road; Sadar; Nagpur,['Indian'  'Fast Food'],40000
-123070,The Indian Spices,--,Residency Road Beside Moti Mahal,['North Indian'],20000
-178930,Made In China,3.9,Oye Orange Kitchen; Near Samrat Guest House; Bajeria Chowk; Nagpur - 440018,['Chinese'],30000
-91461,Foody Moody,3.7,Juni mangalwari Chandrasekhar Azad chouk  Bujade mohalla  Near patimay mandir Nagpur 440008,['Chinese'  'North Indian'  'Biryani'],40000
-175289,Cafe Panda,--,plot no. 113; utkhana; near ambedkar school; nagpur,['Cafe'  'Fast Food'],25000
-157007,Haldiram Express 24X7,4.2,Plot No. 214; W.H.C. Shankar Nagar Square; Dharampeth; Nagpur,['South Indian'],20000
-69725,Chill N Grill,3.9,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
-136250,Lassiwala,--,Oye Orange Kitchen; Near Samrat Guest House; Bajeria Chowk; Nagpur - 440018,['Beverages'],15000
-60928,Carnations,--,33; Limbanna Enclave; Mount Road; Sadar; Nagpur,['Fast Food'  'Indian'  'Chinese'],80000
-119425,Jashn-E-Biryani,3.7,Oye Orange Kitchen; Near Samrat Guest House; Bajeria Chowk; Nagpur - 440018,['Biryani'  'North Indian'  'Mughlai'],25000
-114683,Chinese King Specialist,3.6,Traffic Park VIP Road; Dharampeth,['Fast Food'  'Chinese'  'North Indian'],40000
-114763,Biryani Specialist,--,traffic park vip road,['Fast Food'  'Chinese'  'North Indian'],60000
-83263,Babbu's Star,2.4,central avenue road; dosar bhawan; behind traffic police chowky; bajaria,['Biryani'  'Mughlai'  'North Indian'],30000
-222489,Haji Hotel,4,HOUSE NO. 331; NEAR KAMAL BABA DARGAH GATE; MOHAMMAD ALI ROAD; MOMINPURA; NAGPUR; NAGPUR URBAN; NAGPUR-1 (MAHARASHTRA)-440018,['Indian'],30000
-145849,Night Out Cafe,--,Traffic Park VIP Rd Near Shyam Medical Dharampeth,['Fast Food'],40000
-63974,Shankar Bhojnalaya,3.7,Opp Hotel Centre Point; Ramdaspeth,['Indian'  'Thalis'  'Chinese'],25000
-89300,Thali Wala,2.9,Plot no 31; Opposite Center Point Hotel; Ramdaspeth; Nagpur,['North Indian'  'Fast Food'],20000
-135476,Maggi Hut,--,N-116 karimabad Housing society; opp Poonam chambers ; byramji town; Nagpur. 440013,['North Indian'  'Fast Food'  'Chinese'],25000
-63755,Shreenath Pavbhaji Pulao,4,Plot No.7; Bhgwaghar Layout; Behind Children's Traffic Park; Dharampeth; Nagpur,['Fast Food'],20000
-141507,La Pasta Fresca Deli,4.3,Plot 2; Bhagvaghar Layout; opposite Taori Marketing; Dharampeth; Nagpur; Maharashtra 440010,['Fast Food'],30000
-217153,Hydrabadi Biryani,--,Plot 176; Chandan Nagar; Near Hanuman Nagar; Medical Square Nagpur; Ayodhya Nagar; Nagpur,['North Indian'],20000
-129413,The Food City,--,Plot No.5; Hanuman Nagar; Above Roopam Traders; Medical Square,['North Indian'  'Fast Food'  'Chinese'],25000
-127054,The Food Town,--,Medical Square; Nagpur,['North Indian'  'Fast Food'  'Chinese'],25000
-240843,Night Kingdom,--,House No.81 Chandra Krishna Niwas Gavalipura VIP Road Dharampeth Nagpur; Nagpur-1; Maharashtra - 440010,['Indian'],25000
-243216,4K' s Roof Top,--,PLOT NO 213;MESHRAM CHOWK;RESIDANCY ROAD; NAGPUR 440016 ; District - Nagpur-1; STATE - Maharashtra,['Beverages'  'Juices'],20000
-190450,Nagpuri Saoji Bhojanalay,--,PLOT NO 176; CHANDAN NAGAR; NEAR HANUMAN NAGAR; MEDICAL SQUARE; NAGPUR,['Indian'],20000
-190447,Chicken Dinner,--,PLOT NO 176; CHANDAN NAGAR; NEAR HANUMAN NAGAR; MEDICAL SQUARE; NAGPUR,['Chinese'  'Fast Food'],20000
-149553,Delicious Kulfi,--,behind hakinggi's ka wada Near Taj Boaring Works; Bhaldarpura; Gandhibagh; Nagpur,['Desserts'],30000
-177928,Tasty Saoji,4,Timki; Mominpura; Nagpur,['Fast Food'  'Maharashtrian'],10000
-190443,Pride Restaurant,--,PLOT NO 176; CHANDAN NAGAR; NEAR HANUMAN NAGAR; MEDICAL SQUARE; NAGPUR,['North Indian'],20000
-64470,KLFC,--,Near Lamba Petrol Pump; Kadbi Chowk; Sadar; Nagpur,['Fast Food'],50000
-56566,Matka Biryani,3.7,Kadbi Chowk; Near Lamba Petrol Pump; Sadar; Nagpur,['Biryani'  'North Indian'],30000
-145947,Aflatoon Food Plaza,--,Plot No 6;Sai Vishwa Apt;Tilak Nagar,['Fast Food'],40000
-257327,THE GLASS ONION,--,PLOT NO 10; VAKILPETH ; HANUMAN NAGAR; NAGPUR-09 ; District - Nagpur-1; STATE - Maharashtra,['Chinese'  'Indian'],20000
-77545,Rice & Curry,--,Near Lamba PEtrole Pump Kadbi Square,['North Indian'],20000
-90549,Bangali Babu Sandwiches,3.7,Near City Post Office; Opposite Shanti Dairy; Laxmi Saraswati Kalka Mandir; Itwari; Gandhibagh; Nagpur,['Fast Food'  'Pizzas'],15000
-59309,Hotel Sujal Saoji,3.8,Plot No.201; Central Bazar Road; Bajaj Nagar; Nagpur,['North Indian'  'Chinese'  'Biryani'  'Seafood'  'Tandoor'],30000
-239293,Ruchi's Kitchen,3.9,block no. 715/A/11; main road; kachipura; ramdaspeth; Nagpur,['North Indian'  'Biryani'  'Chinese'],20000
-215500,Babbu Hotel,4,Mohd Ali Sarai; Mominpura; Nagpur,['Biryani'  'Mughlai'],30000
-251775,DOSTI YAARI,--,BESIDES LONDE JWELLERS; GOKULPETH MARKET ROAD; GOKULPOETH; NAGPUR; Netambit - 440010,['Indian'],25000
-178899,China Express,3.9,388;old Bagadganj;Near NIT Hall;Nagpur,['Biryani'  'Chinese'  'Continental'],30000
-247089,Hunger kills,--,JUNI MANGALWARI; CHANDRASHEKHAR AZAD CHOWK; BUJADE MOHALLA; PATIMAYA MANDIR; NAGPUR; Nagpur urban; Nagpur-1 (Maharashtra); - 440008,['Indian'],15000
-92225,Shree Ganesh Restaurant,3.8,Plot 251 Shree Ganesh Niwas; Datt Nagar; Shastri Nagar Chowk; Near NIT Garden; Wardhaman Nagar; Nagpur,['Chinese'  'North Indian'],25000
-57495,Pizza Hut,4.1,PHD Ambazari Nagpur;Plot No 1435;Meghdoor Heights;Shradhand Peth South Ambazari Road Nagpur;Nagpur Maharashtra 440010,['Pizzas'],35000
-72950,Hot Sandwiches,3.5,Plot no 370;Garoba Maidan;Chhapru Nagar;Thakre Rickshaw Garage,['Fast Food'],35000
-55348,House of Caffeine,3.5,J 12; Besides Face & Figure Gym; WHC Road; Laxmi Nagar; Nagpur,['Continental'  'Desserts'  'Beverages'],50000
-56261,Panino The Sandwich World,4.3,51-54; 1st Floor; Poonam Chambers; Chaoni; Sadar; Nagpur,['Cafe'  'Fast Food'  'Snacks'  'Beverages'],40000
-188354,Mother Son's,3.8,Shop 3 Dev Nagar; khamla Road Nagpur; Nagpur; Maharashtra 440015; India,['Beverages'  'Fast Food'],25000
-227251,VFC (Vidarbha Fried Chicken),--,388;Old Bagadganj;Near N.I.T Hall;Nagpur; District - Nagpur-1; STATE - Maharashtra-440008,['Fast Food'  'Indian'],25000
-231230,Biryani Aladin,--,388;Old Bagadganj;Near N.I.T. Hall;Nagpur; District - Nagpur-1; STATE - Maharashtra - 440008,['Fast Food'],20000
-168676,My BesTea,3.4,GS/3 Swagat Apartment upper ground floor House no; 996/6 ward no.75 dev nagar Nagpur,['Beverages'  'Fast Food'],20000
-120203,Biryani Kingdom,4,822 ; Ram Nagar Dharampeth,['Biryani'  'North Indian'],20000
-72602,Jaiswal Kitchen,4.1,House No 822; Amravati Rd; Near New Hanuman Mandir; Ramnagar,['Chinese'  'North Indian'  'Biryani'],20000
-215903,Pao Rangers,--,PLOT NO 20 SHIVSHANKAR APPATMENTS 1ST FLOOR SHANKAR NAGAR NAGPUR 440010; Nagpur urban; Nagpur-1 (Maharashtra); - 440010,['Snacks'],20000
-72952,Gurpal Foods,4.2,Plot No 14; Kamptee Road; Opp Tirpude Hospital; Buddha Nagar; Nagpur; Maharashtra 440017,['North Indian'  'Chinese'],30000
-225751,Asha Kitchen,--,PLOT NO. 628/A;AJNI SQUARE; BEHIND AJIT BAKERY;WARDHA ROAD; NAGPUR-440015.; District - Nagpur-1; 440015; Maharashtra,['Indian'],20000
-207902,Baskin Robbins-8 Rasta Sqaure,4.2,baskin-robbins near 8 Rasta Chowk; Laxminagar; Nagpur; Maharashtra; India,['Desserts'  'Ice Cream'],25000
-72954,Juhi's Kitchen,4.2,2/A; Kalakunj; Madhav Nagar; 2/A; Kalakunj; Madhav Nagar; South Ambazari Road;Nagpur; Nagpur,['North Indian'  'Chinese'  'Biryani'],30000
-193815,Biryani Darbaar,3.8,Ram Nagar; Nagpur; Maharashtra; India,['Biryani'  'North Indian'],20000
-131338,Indian Roti,4.7,Plot no. 1003; Near Buddha Park; Buddha Nagar; Nagpur,['North Indian'  'Fast Food'  'Chinese'],25000
-242379,9 lounge,--,SHOP NO.22 NIT COMPLEX; HILL ROAD; GANDHI NAGAR; NAGPUR ; District - Nagpur-1; STATE - Maharashtra-440010,['Indian'],40000
-56027,Burger Singh (Big Punjabi Burgers),4.1,Plot no 122; Ambazari Road; Shradhanand peth; Opposite to Tanishq Jewellery Showroom; Nagpur-440010,['Fast Food'  'Snacks'  'Beverages'  'Indian'  'American'  'Desserts'],30000
-80161,SSDs Swad Ghar Ka,3.9,Kamlakar Palace; oppo. NIT garden; near shankar nagar square; Nagpur,['North Indian'],20000
-54485,Anna The Restaurant,3.5,Plot 42; Central Bazar Road; Utakarsh; Bajaj Nagar; Nagpur,['Indian'],30000
-227867,Paapi Pait,--,plot no.7;shakari bank;panchpaoli road;nagpur 440017;nagpur urban;nagpur-1(maharastra);-440017,['Indian'],25000
-251704,Ho lee phuk,--,PLOT NO 20 SHIVSHANKAR APPATMENTS 1ST FLOOR SHANKAR NAGAR NAGPUR 440010; District - Nagpur-1; STATE - Maharashtra - 440010,['Chinese'  'Indian'],25000
-86378,Cafe Freezing Point,3.6,10; Naresh Society; Near Ganesh Mandir; Pratap Nagar; Nagpur,['Bakery'  'Fast Food'  'Cafe'  'Beverages'  'Ice Cream'],15000
-178054,Grey Hills Restaurant,--,Plot 43; Universal Tower; Central Bazaar Road; Bajaj Nagar; Nagpur,['North Indian'  'Chinese'  'Biryani'],40000
-164039,The Paratha Shopee,3.8,plot no 19 indira Gandhi colony jaripatka Nagpur,['North Indian'],30000
-202070,Jimo,4.4,new sneh nagar; wardha road; nagpur,['Jain'  'North Indian'],30000
-100716,S S Food Gallery,--,new futala lake telankhedi mandir road ; vayusena nagar,['Chinese'],20000
-98425,Food Southee,4,E/553;Near Korona House Laxminagar Besides jain mandir nagpur 440022,['Fast Food'],20000
-135543,Balu Saoji Bhojnalaya,--,C.A Road Beside Hira Plaza Juni Mangalwari Nagpur 440002.,['North Indian'  'Fast Food'  'Chinese'],25000
-222896,The Little Hearts Kitchen,3.8,Kasturba Nagar; Jaripatka; Nagpur,['Fast Food'],30000
-78475,Drink n Dream,4.7,Kamal Phool Chowk Jaripatka,['Beverages'  'Juices'],25000
-150088,Curry Cafe,--,Rati Rakesh Jain; H. No. 127; Shri Krishna Nagar; New Wathoda; Near Shitla Mata Mandir; Nagpur; District - Nagpur-1; STATE - Maharashtra,['Fast Food'],40000
-155992,Maggi King,3.5,Cafe Freezing Point; Near Pratap Nagar Square; Khamla; Nagpur; Maharashtra; India,['Fast Food'],15000
-248924,Tom Uncle's Maggie Corner,--,113; Hilltop Layout; Sudam Nagar; Ambazari; nagpur 440033,['Fast Food'  'Cafe'  'Snacks'  'Home Food'],20000
-56258,Sigri,4,Byramji Town; Chindwada Road; Sadar; Nagpur,['North Indian'  'Chinese'],60000
-53702,Hunger's Den Restaurant & Cafe,3.9,Nelco society; Trimurti Nagar; Nagpur; 440022,['Biryani'  'North Indian'  'Chinese'  'Fast Food'  'Barbecue'],25000
-55010,Zaikart,4,Plot 17; Sneha Bunglow; Next to Cafe Coffee Day; IT Park; Gayatri Nagar; Pratap Nagar; Nagpur,['North Indian'  'Chinese'],55000
-58224,Battery Full,3.6,M2; Prabodhan Apartment; Opp. Power Grid Office; Nagpur,['Fast Food'],15000
-60934,Om Shakti Saoji,--,10/4; 82; HIG Housing Board Colony; Near NIT Garden; Trimuti Nagar; Nagpur,['Indian'],50000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+114358,Natural Ice Cream,4.7,Natural Ice Cream; Mahalaxmi Appartment; Khare town; Dharampeth; Nagpur 440010,['Ice Cream'],15000
+56562,Giani's,4.6,Shop 17; Sadar; VCA Complex; Civil Lines; Nagpur,['Ice Cream'  'Desserts'  'Beverages'],20000
+111707,Burhanpur Jalebi,4.6,House 260; Block 2; Shyam Talkies Chowk; Gandhibagh; Nagpur,['Fast Food'  'North Indian'],30000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+56275,Dinshaws Ice Cream Parlour,4.6,Opposite Tuli International Hotel; Residency Road; Sadar; Nagpur,['Ice Cream'],20000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+53224,Singh's - Dhantoli,4.6,Shop 6 & 7; Yashwant Stadium; Near Patwardhan Ground; Dhantoli; Nagpur,['Indian'  'Chinese'],50000
+199878,Mast Banarasi Pan,4.5,SHOP NO.3; MASRANI BHAWAN; OPP. YASHWANT STADIUM; OLD DHANTOLI; NAGPUR- 440013 INDIA; Nagpur urban; Nagpur-1 (Maharashtra); - 440013 ,['Paan'],20000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+188572,Shreenath Pavbhaji Hut,4.5,Dhantoli; Nagpur; Maharashtra; India,['Fast Food'],25000
+60709,Ten 11 Restaurant,4.4,Plot No. 204; Shiv Nagar; Tiranga Chowk Main Road; Nagpur,['Indian'  'Chinese'],70000
+52547,Subway,4.4,G2; Indu Yash Complex; Cement Road; Ramnagar; Near; Dharampeth; Nagpur,['American'  'Fast Food'  'Healthy Food'],45000
+177028,Drunken Monkey,4.4,Shop No G6; Gokul Roshan Building ; Plot 25-26;Dharampeth,['Beverages'  'Juices'  'Healthy Food'],35000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+103748,The Pancake Story,4.4,84 & 85; Pathak House; Abhyankar Nagar; Bajaj Nagar; Nagpur,['Bakery'],25000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56273,Hotel Heritage Restaurant,3.8,Ravindranath Tagore Road; Civil Lines; Collector's Circle; Nagpur,['Indian'  'Chinese'  'Continental'],40000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+56353,Ravi's Food,4.1,VCA Ground; Shop No.28; Sadar; Nagpur,['Indian'  'Chinese'],55000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+69725,Chill N Grill,3.8,1st & 4th Floor; Poonam Arcade; Residency Road; Sadar; Nagpur,['North Indian'  'Continental'  'Chinese'  'Thai'],70000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+173526,Babbu Plaza Restaurant,4.0,Anjuman Complex; Sadar; Nagpur,['North Indian'],40000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+52639,Smokin Grills,3.9,Plot 255/4; Ganesh Chambers; WHC Road; Laxminagar Square; Bajaj Nagar; Nagpur,['Pizzas'],30000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+59308,Novelty Pure Veg Restaurant,3.8,Opposite Chandralok Building; C.A Road; Gandhibagh; Nagpur,['North Indian'  'Thalis'  'Beverages'],30000
+81068,Jay Ambika Bhojnalay,4.1,30; NIT Shopping Complex; Near Bust Station; Gandhibagh; Nagpur,['North Indian'],40000
+58210,BARBECUE Sadar,4.6,Plot 2B; Mount Road Extension; S.Bazar; Sadar; Nagpur,['Indian'  'Chinese'],65000
+67332,Shree Ganesh Bhojnalay,3.6,Opp. Matamandir; Near Lohapul; Manas Chowk; Subhash Road,['North Indian'],40000
+100033,Shrinath Pav Bhjaji Pulav And Chinese Center,3.9,Yashwant Stadium; Dhantoli; Nagpur,['Fast Food'  'Chinese'  'Street Food'],20000
+190407,Gulshan Plaza,4.3,Gulshan Plaza; Humpyard Road; Beside Hotel Hardeo; Sitabuldi; Nagpur; Maharashtra; India,['North Indian'],30000
+54053,Pizza Hut,3.6,SN F1 & F2; 1st Flr; Eternity Mall; Variety Square; Sitabuldi; Nagpur; Maharashtra 440012,['Pizzas'],40000
+56319,Roast Cafe,4.2,Zal Complex; below Bharat Saree Stores; Sadar; Nagpur,['Indian'  'Chinese'],30000
+53868,KFC,4.2,G1; G2; Ground Floor; Eternity Mall; Variety Square; Sitaburdi; Nagpur; Maharashtra 440010,['American'  'Fast Food'],40000
+246928,Treat At Street Cafe,--,SOMWAR BAJAR ROAD; OPP. HANSWENI GUEST HOUSE; MALIPURA; SITABULDI; NAGPUR 440012; District - Nagpur-1; STATE - Maharashtra - 440012,['Cafe'  'Fast Food'],20000
+56350,Checkers,4.2,SJTI Complex; Beside SFS School; Residency Road; Sadar; Nagpur,['Indian'  'Chinese'  'Continental'],50000
+57845,Yoginee Restaurant,4.3,Shop No F-14/17. Ratan Plaza; Santra Market; Bajaria; Nagpur; Maharashtra 440018,['Indian'  'Continental'  'Chinese'],30000
+73117,Hotel Lucky,3.7,Shyam Talkis Road; Chiknis Park; Gandhibagh; Nagpur,['Biryani'  'Mughlai'  'North Indian'],30000
+105240,UBQ by Barbeque Nation,3.9,Unit - K1 to FC- 6; 2nd floor; eternity mall; verity chowk; nagpur-440024,['North Indian'  'Mughlai'  'Seafood'  'Biryani'  'Desserts'  'Kebabs'],20000
+64762,Royal Plaza,--,Near Hardeo Hotel; Sitabuldi; Nagpur,['Indian'],55000
+64968,Hotel President's Khana Khazana,--,Modi No. 3; Sitabuldi; Nagpur; Maharashtra,['Indian'  'Chinese'],40000
