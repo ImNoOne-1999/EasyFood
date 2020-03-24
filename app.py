@@ -56,7 +56,7 @@ def index():
     if request.method == 'POST':
 
         data_temp = recommend1()
-
+        #dish zomato medd krna hai abhi
         cuisine = request.form['name']
 
         city_name = request.form['city']
@@ -76,22 +76,21 @@ def index():
         r=response.json()
     
         
-        #swiggy scrap data
+        #swiggy scrap data dynamic done for dishes
         
         headers = {
-                'authority': 'www.swiggy.com','__fetch_req__': 'true','user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36','content-type': 'application/json',
-                'accept': '*/*','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','referer': 'https://www.swiggy.com/nagpur?page=2','accept-encoding': 'gzip, deflate, br','accept-language': 'en-US,en;q=0.9',
-                'cookie': '__SW=HoKO60a2TJk5HNQSliXxoCrZ5HWyjz2D; _device_id=0894e1e8-2d2b-4895-9d14-d612cabd8650; _gcl_aw=GCL.1579978783.EAIaIQobChMImru0zref5wIVGg4rCh0rPQtzEAAYASAAEgJTR_D_BwE; _gcl_au=1.1.537344729.1579978783; _ga=GA1.2.965912730.1579978783; _gac_0=1.1579978783.EAIaIQobChMImru0zref5wIVGg4rCh0rPQtzEAAYASAAEgJTR_D_BwE; optimizelyEndUserId=lo_BOlBS0CG5G4W; order_source=Google-Sok; order_medium=CPC; order_campaign=google_search_sok_food_na_narm_order_web_m_web_clubbedcities_v3_welcome50_neev_competitor_newuser_competitor_bmm; __cfduid=d717f5774b2b57fe77139c34294ac76211582631293; fontsLoaded=1; userLocation=%7B%22lat%22%3A%2221.11021%22%2C%22lng%22%3A%2279.047786%22%2C%22address%22%3A%22Deendayal%20Nagar%2C%20Nagpur%2C%20Maharashtra%20440022%2C%20India%22%2C%22area%22%3A%22Deendayal%20Nagar%22%2C%22id%22%3A%2233379943%22%7D; _gid=GA1.2.1343453737.1582728551; _parsely_session={%22sid%22:2%2C%22surl%22:%22https://bytes.swiggy.com/swiggy-rest-opinionated-crud-library-on-spring-a78715074eb4%22%2C%22sref%22:%22https://www.google.com/%22%2C%22sts%22:1582728550837%2C%22slts%22:1580357610757}; _parsely_visitor={%22id%22:%22pid=d60e514ce147de51e436db833c907f56%22%2C%22session_count%22:2%2C%22last_session_ts%22:1582728550837}; _guest_tid=28fd9621-459a-4e16-9a2d-6daf8f88adba; _sid=lbw58cea-759d-47df-89df-b6ebbc1e349d; _gat_UA-53591212-4=1',
-        }
+                'authority': 'www.swiggy.com','sec-fetch-dest': 'empty','__fetch_req__': 'true',
+                'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'
+            }
 
         params = (
-                ('page', 1),('ignoreServiceability', 'true'),('lat', lat),('lng', lon),('str', cuisine),('pageType', 'SEE_ALL'),('sortBy', 'RELEVANCE'),('page_type', 'DESKTOP_SEE_ALL_LISTING'),('count',5)
-        )
- 
-        response = requests.get('https://www.swiggy.com/dapi/restaurants/list/v5', headers=headers, params=params)
-        response = response.text
-        data1 = json.loads(response)
-        data1 = data1['data']['cards']
+                ('lat', lat),('lng', lon),('trackingId', 'bb2d4d4f-c6c6-6c70-1364-d99132620a33'),('str', cuisine),('sld', 'false'),
+                ('non_partner_search', 'false'),('submitAction', 'ENTER'),
+            )
+
+        response = requests.get('https://www.swiggy.com/dapi/restaurants/search/v2_2', headers=headers, params=params)
+        data1 = response.json()
+        data1 = data1['data']['restaurants']
 
         #restaurants info passing
         for i in r['cuisines']:
@@ -105,7 +104,7 @@ def index():
                 newg = r1['nearby_restaurants']
 
                 #top rated restaurants
-                response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&cuisines='+str(new1['cuisine_id']), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'rating','count':5})
+                response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&cuisines='+str(new1['cuisine_id']), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'relevance','count':10})
                 r=response.json()
                 new=r['restaurants']
                 return render_template('zomato.html',new=new,data1=data1,newg=newg,data_temp=data_temp)
@@ -252,7 +251,7 @@ def zomato():
             response=requests.get('https://developers.zomato.com/api/v2.1/geocode?lat='+lat+'&lon='+lon+'&radius=4000',headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','count':5})
             r1=response.json()
             newg = r1['nearby_restaurants']
-            response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&cuisines='+str(new1['cuisine_id']), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'rating','count':5})
+            response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&cuisines='+str(new1['cuisine_id']), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'rating','count':10})
             r=response.json()
             new=r['restaurants']
             return render_template('temp.html',new=new,newg = newg)
@@ -260,42 +259,7 @@ def zomato():
 
     return render_template('index.html')
     
-@app.route("/swiggy11")
-def swiggy():
-    item = 'noodles'
 
-    headers = {
-    'authority': 'www.swiggy.com',
-    'sec-fetch-dest': 'empty',
-    '__fetch_req__': 'true',
-    'usecache': 'false',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36',
-    'content-type': 'application/json',
-    'accept': '*/*',
-    'sec-fetch-site': 'same-origin',
-    'sec-fetch-mode': 'cors',
-    'referer': 'https://www.swiggy.com/search?q=milkshake',
-    'accept-language': 'en-US,en;q=0.9',
-    'cookie': '__SW=HoKO60a2TJk5HNQSliXxoCrZ5HWyjz2D; _device_id=0894e1e8-2d2b-4895-9d14-d612cabd8650; _gcl_aw=GCL.1579978783.EAIaIQobChMImru0zref5wIVGg4rCh0rPQtzEAAYASAAEgJTR_D_BwE; _gcl_au=1.1.537344729.1579978783; _ga=GA1.2.965912730.1579978783; _gac_0=1.1579978783.EAIaIQobChMImru0zref5wIVGg4rCh0rPQtzEAAYASAAEgJTR_D_BwE; optimizelyEndUserId=lo_BOlBS0CG5G4W; __cfduid=d717f5774b2b57fe77139c34294ac76211582631293; fontsLoaded=1; _parsely_visitor=^{^%^22id^%^22:^%^22pid=d60e514ce147de51e436db833c907f56^%^22^%^2C^%^22session_count^%^22:6^%^2C^%^22last_session_ts^%^22:1584731511829^}; _guest_tid=c22cd0fb-0ee9-4785-b9c3-158641fefd49; _sid=ltqe5fe6-e1e3-4b4b-a3cd-f6d15b71bc98; _gid=GA1.2.589395445.1585041707; userLocation=^{^%^22address^%^22:^%^22Pune^%^2C^%^20Maharashtra^%^2C^%^20India^%^22^%^2C^%^22area^%^22:^%^22^%^22^%^2C^%^22deliveryLocation^%^22:^%^22Pune^%^22^%^2C^%^22lat^%^22:18.5204303^%^2C^%^22lng^%^22:73.8567437^}; dadl=true; _gat_0=1; _gat_UA-53591212-4=1',
-    }
-
-    params = (
-    ('lat', '18.5204303^'),
-    ('lng', '73.8567437^'),
-    ('trackingId', '593ed602-00e6-999a-8abd-e58a23308a11^'),
-    ('str', 'milkshake^'),
-    ('sld', 'false^'),
-    ('non_partner_search', 'false^'),
-    ('submitAction', 'ENTER'),
-    )
-
-    response = requests.get('https://www.swiggy.com/dapi/restaurants/search/v2_2', headers=headers, params=params)
-    response = response.text
-    data1 = json.loads(response)
-    print(data1)
-    data1 = data1['data']['cards']
-    
-    return render_template('swig.html',data1=data1)
 
 
 if __name__=="__main__":

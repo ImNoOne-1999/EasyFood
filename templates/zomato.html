@@ -141,6 +141,8 @@
     {% endfor %}
 
     {% for i in range(data1|length) %}
+    {% set data = data1[i]['restaurants'] %}
+    {% for j in range(data|length) %}
     <div class="row">
         <div class="col-md-2">
         </div>
@@ -148,17 +150,17 @@
             <div class="card w-100">
             <div class="row no-gutters">
                 <div class="col-md-4">
-                    <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_400,h_320,c_fill/{{ data1[i]['data']['data']['cloudinaryImageId'] }}">
+                    <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_400,h_320,c_fill/{{ data[j]['cloudinaryImageId'] }}">
                 </div>
                 <div class="col-md-4">
                         <div class="card-body">
                         
-                        <h5 class="card-title">{{ data1[i]['data']['data']['name'] }}</h5>
+                        <h5 class="card-title">{{ data[j]['name'] }}</h5>
                         <h6 class="card-title">Location:</h6>
-                        <p class="card-text">{{ data1[i]['data']['data']['address'] }}<br>{{ data1[i]['data']['data']['area'] }}</p>
+                        
                         <h6 class="card-title">Rating:</h6>
-                        <p class="card-text">{{ data1[i]['data']['data']['avgRating'] }}</p>
-                        <p class="card-text">{{ data1[i]['data']['data']['totalRatingsString'] }}</p>
+                        <p class="card-text">{{ data[j]['avgRating'] }}</p>
+                        
                         </div>
                 </div>
                     
@@ -166,9 +168,9 @@
                 <div class="col-md-4">
                     <div class="card-body">
                         <h6 class="card-title">Cost For Two Swiggy:</h6>
-                        <p class="card-text">{{ data1[i]['data']['data']['costForTwoString'] }}</p>
+                        <p class="card-text">Rs. {{ data[j]['costForTwo']//100 }} FOR TWO</p>
                         
-                        <button onclick="window.location.href='https://www.swiggy.com/restaurants/{{ data1[i]['data']['data']['slugs']['restaurant'] }}'" class="btn btn-primary">Visit Page</button>
+                        <button onclick="window.location.href='https://www.swiggy.com/restaurants/{{ data[j]['slugs']['restaurant'] }}'" class="btn btn-primary">View Deal</button>
                     </div>
                 </div>   
             </div>
@@ -177,6 +179,7 @@
         <div class="col-md-2">
         </div>
     </div>
+    {% endfor %}
     {% endfor %}
     <br>
     <h1 style='font-size: 200%'>Near By Recommended Restaurants</h1><br>
