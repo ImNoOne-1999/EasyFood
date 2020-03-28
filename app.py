@@ -55,12 +55,14 @@ security = Security(app, user_datastore)
 def index():
     if request.method == 'POST':
 
-        data_temp = recommend1()
+        #data_temp = recommend1()
         #dish zomato medd krna hai abhi
         cuisine = request.form['name']
+        cuisine = cuisine.split(' ')
+        cuisine = '%20'.join(cuisine)
+        
 
         city_name = request.form['city']
-        print(city_name)
         city_name = city_name.split(' ')
         city_name = '%20'.join(city_name)
         h={'user-key':'07adec2c50dd0fe4adee163b0fe1b35a'}
@@ -95,19 +97,22 @@ def index():
         #restaurants info passing
         for i in r['cuisines']:
             new1=i['cuisine']
-            #print(new1)
-            #print(cuisine)
+            #near by restaurants
+            response=requests.get('https://developers.zomato.com/api/v2.1/geocode?lat='+lat+'&lon='+lon+'&radius=4000',headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','count':5})
+            r1=response.json()
+            newg = r1['nearby_restaurants']
             if new1['cuisine_name'].lower()==cuisine.lower():
-                #near by restaurants
-                response=requests.get('https://developers.zomato.com/api/v2.1/geocode?lat='+lat+'&lon='+lon+'&radius=4000',headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','count':5})
-                r1=response.json()
-                newg = r1['nearby_restaurants']
-
-                #top rated restaurants
-                response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&cuisines='+str(new1['cuisine_id']), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'relevance','count':10})
+                #top rated restaurants for cuisines
+                response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&cuisines='+str(new1['cuisine_id']), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'relevance'})
                 r=response.json()
                 new=r['restaurants']
-                return render_template('zomato.html',new=new,data1=data1,newg=newg,data_temp=data_temp)
+                return render_template('zomswig.html',new=new,data1=data1,newg=newg,data_temp=data_temp)
+            else:
+                #top rated restaurants for popular searched dishes
+                response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&q='+cuisine.lower(), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'relevance'})
+                r=response.json()
+                new=r['restaurants']
+                return render_template('zomswig.html',newg=newg,new=new,data1=data1)
         return render_template('index.html')   
     else:
         return render_template('index.html')
@@ -225,9 +230,9 @@ def recommend1():
 @app.route("/swiggy")
 def zomato():
 
-    cuisine = "BBQ"
+    cuisine = "samosa"
     
-    city_name = "new delhi"
+    city_name = "nagpur"
     city_name = city_name.split(' ')
     city_name = '%20'.join(city_name)
     h={'user-key':'07adec2c50dd0fe4adee163b0fe1b35a'}
@@ -242,16 +247,25 @@ def zomato():
     h={'user-key':'4febbc079d5c6e22700a69d421956a8d'}
     response=requests.get('https://developers.zomato.com/api/v2.1/cuisines?lat='+lat+'&lon='+lon+'&radius=4000',headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d'})
     r=response.json()
+
         
     for i in r['cuisines']:
         new1=i['cuisine']
         #print(new1)
         #print(cuisine)
+        response=requests.get('https://developers.zomato.com/api/v2.1/geocode?lat='+lat+'&lon='+lon+'&radius=4000',headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','count':5})
+        r1=response.json()
+        newg = r1['nearby_restaurants']
         if new1['cuisine_name']==cuisine:
-            response=requests.get('https://developers.zomato.com/api/v2.1/geocode?lat='+lat+'&lon='+lon+'&radius=4000',headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','count':5})
-            r1=response.json()
-            newg = r1['nearby_restaurants']
+            
+            print("cuisine")
             response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&cuisines='+str(new1['cuisine_id']), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'rating','count':10})
+            r=response.json()
+            new=r['restaurants']
+            return render_template('temp.html',new=new,newg = newg)
+        else:
+            print(cuisine)
+            response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&q=samosa', headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'rating','count':10})
             r=response.json()
             new=r['restaurants']
             return render_template('temp.html',new=new,newg = newg)

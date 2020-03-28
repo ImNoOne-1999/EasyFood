@@ -38,7 +38,7 @@
 
 
 
-{% for i in new %}
+{% for i in range(new|length) %}
     <div class="row">
         <div class="col-md-2">
         </div>
@@ -46,23 +46,23 @@
             <div class="card w-100">
             <div class="row no-gutters">
                 <div class="col-md-4">
-                    <img width="300" src="{{ i['restaurant']['thumb'] }}">
+                    <img width="300" src="{{ new[i]['restaurant']['thumb'] }}">
                 </div>
                 <div class="col-md-4">
                         <div class="card-body">
-                        <h5 class="card-title">{{ i['restaurant']['name'] }}</h5><br> 
+                        <h5 class="card-title">{{ new[i]['restaurant']['name'] }}</h5><br> 
                         <h6 class="card-title">Location:</h6>
-                        <p class="card-text">{{ i['restaurant']['location']['address'] }}</p><br>    
+                        <p class="card-text">{{ new[i]['restaurant']['location']['address'] }}</p><br>    
                         <h6 class="card-title">Rating:</h6>
-                        <p class="card-text">{{ i['restaurant']['user_rating']['aggregate_rating'] }}</p>
-                        <p class="card-text">{{ i['restaurant']['user_rating']['votes'] }}+ ratings</p>
+                        <p class="card-text">{{ new[i]['restaurant']['user_rating']['aggregate_rating'] }}</p>
+                        <p class="card-text">{{ new[i]['restaurant']['user_rating']['votes'] }}+ ratings</p>
                         </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card-body">
                         <h6 class="card-title">Cost For Two Zomato:</h6>
-                        <p class="card-text">{{ i['restaurant']['currency'] }} {{ i['restaurant']['average_cost_for_two'] }} FOR TWO</p>
-                        <button onclick="window.location.href='{{ i['restaurant']['url'] }}'" class="btn btn-primary">View Deal</button>
+                        <p class="card-text">{{ new[i]['restaurant']['currency'] }} {{ new[i]['restaurant']['average_cost_for_two'] }} FOR TWO</p>
+                        <button onclick="window.location.href='{{ new[i]['restaurant']['url'] }}'" class="btn btn-primary">View Deal</button>
 
                     </div>
                 </div>   
