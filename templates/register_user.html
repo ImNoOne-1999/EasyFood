@@ -1,16 +1,22 @@
-
-
 {% from "security/_macros.html" import render_field_with_errors, render_field %}
 {% include "security/_messages.html" %}
-
+{% import "bootstrap/wtf.html" as wtf %}
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
   
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
-
-<div class="card">
+<style>
+.form-control{
+  width: 380px;
+}
+</style>
+<div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+<div class="card w-100">
   <div class="card-header">
     <ul class="nav nav-tabs card-header-tabs">
       <li class="nav-item">
@@ -19,30 +25,27 @@
 							</form>
       </li>
       <li class="nav-item">
-        <form action="/register">
+        <form action="/signup">
 								<button class="nav-link">Register</button>
 							</form>
       </li>
     </ul>
   </div>
-  <div class="card-body">
-    
-    <p class="card-text"><div class="container">
-  <h1>{{ _('Login') }}</h1>
-  <form action="{{ url_for_security('login') }}" method="POST" name="login_user_form">
-    {{ login_user_form.hidden_tag() }}
-    {{ render_field_with_errors(login_user_form.email, class="form-control") }}
-    {{ render_field_with_errors(login_user_form.password, class="form-control") }}
-    {{ render_field_with_errors(login_user_form.remember) }}
-    {{ render_field(login_user_form.next) }}
-    {{ render_field(login_user_form.submit, class="btn btn-primary") }}
-  </form>
-  
-</div>
-<br>
-<br>
-</p>
-    
-  </div>
-</div>
+<div class="container">
 
+<h1>Register</h1>
+<form action="/signup" method="POST" name="register_user_form">
+  {{ form.hidden_tag() }}
+    {{ wtf.form_field(form.username) }}
+    {{ wtf.form_field(form.email) }}
+    {{ wtf.form_field(form.password) }}
+    
+    <button class="btn btn-lg btn-primary" type="submit">Sign Up</button>
+</form>
+
+
+</div>
+</div>
+</div>
+<div class="col-md-4">
+        </div>

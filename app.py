@@ -1,19 +1,20 @@
-from flask import Flask, render_template,request
+from flask import Flask, render_template,request,redirect,url_for
 from flask_sqlalchemy import SQLAlchemy
-import requests
-import json
-import sys
-import numpy as np 
-import pandas as pd 
-import re
+import requests,json,sys,re
+import numpy as np ,pandas as pd 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from nltk.tokenize import word_tokenize
 sys.stdout.reconfigure(encoding='utf-8')
-
-from flask import request, redirect, url_for
 from flask_security import Security, SQLAlchemyUserDatastore,UserMixin,RoleMixin,login_required
 # from flask_bcrypt import Bcrypt
+from flask_bootstrap import Bootstrap
+from flask_wtf import FlaskForm
+from wtforms import StringField,PasswordField,BooleanField
+from wtforms.validators import InputRequired, Email,Length
+from werkzeug.security import generate_password_hash, check_password_hash
+from flask_login import LoginManager,login_user,login_required,logout_user,current_user
+
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:sri@localhost/flaskbeg'
@@ -22,9 +23,45 @@ app.config['SECURITY_REGISTERABLE'] = True
 app.config['SECURITY_PASSWORD_HASH'] = "plaintext"
 
 app.debug = True
+Bootstrap(app)
 db = SQLAlchemy(app)
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = '/login'
 
+class LoginForm(FlaskForm):
+    username = StringField('username', validators=[InputRequired(),Length(min=4, max=15)])
+    password = PasswordField('password', validators=[InputRequired(),Length(min=8, max=15)])
+    remember = BooleanField('remember me')
 
+class RegisterForm(FlaskForm):
+    email = StringField('email', validators=[InputRequired(), Email(message='Invalid email'),Length(max=50)])
+    username = StringField('username', validators=[InputRequired(),Length(min=4, max=15)])
+    password = PasswordField('password', validators=[InputRequired(),Length(min=8, max=15)])
+    
+
+@app.route('/login',methods=['GET','POST'])
+def login():
+    form = LoginForm()
+
+    if form.validate_on_submit():
+        user = User.query.filter_by(username=form.username.data).first()
+        if user:
+            if check_password_hash(user.password, form.password.data):
+                return redirect(url_for('index'))
+        return 'Invalid Username or Password'
+    return render_template('login_user.html',form = form)
+
+@app.route('/signup',methods=['GET','POST'])
+def signup():
+    form = RegisterForm()
+    if form.validate_on_submit():
+        hashed_password = generate_password_hash(form.password.data, method="sha256")
+        new_user = User(username=form.username.data, email =form.email.data, password=hashed_password)
+        db.session.add(new_user)
+        db.session.commit()
+        return redirect(url_for('login'))
+    return render_template('register_user.html',form = form)
 
 roles_users = db.Table('roles_users',
         db.Column('user_id', db.Integer(), db.ForeignKey('user.id')),
@@ -37,6 +74,8 @@ class Role(db.Model, RoleMixin):
 
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(255), unique=True)
+    
     email = db.Column(db.String(255), unique=True)
     password = db.Column(db.String(255))
     active = db.Column(db.Boolean())
@@ -49,10 +88,8 @@ user_datastore = SQLAlchemyUserDatastore(db, User, Role)
 security = Security(app, user_datastore)
 
 
-
 @app.route("/")
 @app.route("/index",methods=['POST','GET'])
-@login_required
 def index():
     if request.method == 'POST':
 
@@ -274,7 +311,11 @@ def zomato():
 
     return render_template('index.html')
     
-
+@app.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for('login'))
 
 
 if __name__=="__main__":
