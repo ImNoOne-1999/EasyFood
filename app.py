@@ -52,6 +52,7 @@ security = Security(app, user_datastore)
 
 @app.route("/")
 @app.route("/index",methods=['POST','GET'])
+@login_required
 def index():
     if request.method == 'POST':
 
