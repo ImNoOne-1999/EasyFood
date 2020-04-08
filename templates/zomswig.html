@@ -22,6 +22,11 @@
         min-height: 150px;
         margin: 10px;
     }
+    #map {
+        height: 320px;
+        width: 50%;
+    }
+
 </style> 
 
 
@@ -74,7 +79,7 @@
 						<div class="single-welcome-hero-form">
 							<h3>what?</h3>
 							<form action="/index" method="POST">
-								<input type="text" name="name" id="name" placeholder="Ex: resturent or food" />
+								<input type="text" name="name" id="name" placeholder="Ex: Cuisine or food name" />
 							
 							<div class="welcome-hero-form-icon">
 								<i class="flaticon-list-with-dots"></i>
@@ -110,12 +115,12 @@
     {% for i in new %}
     
     {%- if i['restaurant']['name']|replace("The","")|replace("Restaurant","")|replace("&","and")|replace("Hotel","")|replace(" ","")|replace("'","")|replace("-","")|lower == k['name']|replace("The","")|replace("Restaurant","")|replace("&","and")|replace("Hotel","")|replace(" ","")|replace("'","")|replace("-","")|lower -%}
-    <div class="row">
-        <div class="col-md-2">
+    
 
-        </div>
+        <div class="row" style="padding-bottom: 10px;padding-left: 10px;">
+        
         <div class="col-md-8">
-            <div class="card w-100">
+            <div class="card w-100" style="padding: 1%;margin: 10px;">
             <div class="row no-gutters">
                 <div class="col-md-4">
 
@@ -149,17 +154,43 @@
             </div>
             </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3" id="map">
+            <script>
+                var lati = {{ i['restaurant']['location']['latitude'] }};
+                var long = {{ i['restaurant']['location']['longitude'] }}
+                
+                function initMap(){
+                    var location = {lat: 20.5937, lng: 78.9629};
+                    var map = new google.maps.Map(document.getElementById("map"),{
+                        zoom: 4,
+                        center: location
+                    });
+                    addMarker({lat: lati, lng: long});
+                    function addMarker(coords){
+                        var marker = new google.maps.Marker({
+                        position: coords,
+                        map: map
+                    });
+                    }
+                }
+                
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC44zlI2R9HH6tI1eVcahOi3sxNMD3w-9I&callback=initMap"></script>
         </div>
     </div>
+    
+        
+    
     {% endif %}
     {% endfor %}
     {% endfor %}
     {% endfor %}
+        
 
-
+    
     <br>
     <h1 style='font-size: 200%'>Near By Recommended Restaurants</h1><br>
+    <div class="row no-gutters">
     <div class="items">
     {% for i in newg %}
             <div class="card item" style="width: 25rem;">
@@ -175,6 +206,7 @@
             </div> 
     {% endfor %}  
     </div>
+   </div>
 
 
     

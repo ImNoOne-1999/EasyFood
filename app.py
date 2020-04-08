@@ -159,19 +159,7 @@ def index():
         
 
 
-@app.route("/profile/<email>")
-@login_required
-def profile(email):
-    user = User.query.filter_by(email=email).first()
-    return render_template('profile.html',user = user)
 
-
-@app.route("/post_user", methods=['POST'])
-def post_user():
-    user = User(request.form['username'],request.form['email'])
-    db.session.add(user)
-    db.session.commit()
-    return redirect(url_for('index'))
 
 
 

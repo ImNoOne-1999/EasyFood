@@ -1,4 +1,4 @@
-
+<html>
 
 {% from "security/_macros.html" import render_field_with_errors, render_field %}
 {% include "security/_messages.html" %}
@@ -13,8 +13,13 @@
 .form-control{
   width: 380px;
 }
+.bg{
+  background:url(../../assets/images/counter/counter-banner.jpg)no-repeat fixed;
+
+}
 </style>
-<div class="row">
+<body style="background-image: url(../../assets/images/counter/counter-banner.jpg)no-repeat fixed;">
+<div class="row" style="background-image: url(../../assets/images/counter/counter-banner.jpg)no-repeat fixed;">
         <div class="col-md-4">
         </div>
         <div class="col-md-4">
@@ -56,3 +61,5 @@
 <div class="col-md-4">
 </div>
 
+</body>
+</html>
