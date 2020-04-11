@@ -13,7 +13,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField,PasswordField,BooleanField
 from wtforms.validators import InputRequired, Email,Length
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask_login import LoginManager,login_user,login_required,logout_user,current_user
+from flask_login import LoginManager,login_user,login_required,logout_user
+
 
 
 app = Flask(__name__)
@@ -25,6 +26,7 @@ app.config['SECURITY_PASSWORD_HASH'] = "plaintext"
 app.debug = True
 Bootstrap(app)
 db = SQLAlchemy(app)
+
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = '/login'
@@ -131,6 +133,7 @@ def index():
         response = requests.get('https://www.swiggy.com/dapi/restaurants/search/v2_2', headers=headers, params=params)
         data1 = response.json()
         data1 = data1['data']['restaurants']
+        
 
         #restaurants info passing
         for i in r['cuisines']:
@@ -141,7 +144,7 @@ def index():
             newg = r1['nearby_restaurants']
             if new1['cuisine_name'].lower()==cuisine.lower():
                 #top rated restaurants for cuisines
-                response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&cuisines='+str(new1['cuisine_id']), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'relevance'})
+                response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&cuisines='+str(new1['cuisine_id']), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'real_distance','order':'desc'})
                 r=response.json()
                 new=r['restaurants']
                 return render_template('zomswig.html',new=new,data1=data1,newg=newg,data_temp=data_temp)
@@ -150,7 +153,7 @@ def index():
                 response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&q='+cuisine.lower(), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'relevance'})
                 r=response.json()
                 new=r['restaurants']
-                return render_template('zomswig.html',newg=newg,new=new,data1=data1)
+                return render_template('zomswig.html',newg=newg,new=new,data1=data1,lat=lat,lon=lon)
         return render_template('index.html')   
     else:
         return render_template('index.html')

@@ -1,4 +1,4 @@
-  <!doctype html>
+<!doctype html>
 <html>
 <head>
     <title>
@@ -13,23 +13,57 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
 
 <style> 
+    #block{
+        font-family: cursive;
+    }
+    
     .items{
         display: flex;
         overflow-x: auto;
+        color: #FFFFFF;
     }
     .items .item{
         min-width:300px;
         min-height: 150px;
         margin: 10px;
+        color: #FFFFFF;
     }
     #map {
-        height: 320px;
-        width: 50%;
+        height: 200px;
+        width: 100%;
+        margin: 10px;
+        margin-right: 10px;
+    }
+    .card-title{
+        font-style: 
+    }
+    #im{
+        padding-left: 15px;
+    }
+    .order-card {
+        color: #fff;
+    }
+
+    .bg-c-blue {
+        background: linear-gradient(45deg,#4099ff,#73b4ff);
+    }
+    .card {
+        border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,65,0.16);
+        box-shadow: 0 2px 2.94px 0.06px rgba(4,26,65,0.16);
+        border: none;
+        margin-bottom: 30px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        color: #FFFFFF;
+    }
+    .card-body{
+        color: #FFFFFF;
     }
 
 </style> 
 
-
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- For favicon png -->
 		<link rel="shortcut icon" type="image/icon" href="/static/logo/favicon.png"/>
@@ -71,9 +105,22 @@
 </head>
 <body>
 
+
     
 			
-			<div class="card text-black bg-danger mb-3" style="padding: 35px;" >
+			<div class="card text-black bg-danger mb-3" style="padding: 15px;" >
+            <div class="row">
+                <div class="col-sm-11">
+                    <div class="navbar-header">
+				        <a class="navbar-brand" style="font-size: 35px;" href="/">Easy<span>food</span></a>
+				    </div>
+                </div>
+                <div class="col-sm-1">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/logout">Sign Out</a>
+                    </div>
+                </div>
+            </div>
 				<div class="welcome-hero-serch-box">
 					<div class="welcome-hero-form">
 						<div class="single-welcome-hero-form">
@@ -109,63 +156,19 @@
     
 
 		
-
-    {% for j in data1 %}
-    {% for k in j['restaurants'] %}
-    {% for i in new %}
-    
-    {%- if i['restaurant']['name']|replace("The","")|replace("Restaurant","")|replace("&","and")|replace("Hotel","")|replace(" ","")|replace("'","")|replace("-","")|lower == k['name']|replace("The","")|replace("Restaurant","")|replace("&","and")|replace("Hotel","")|replace(" ","")|replace("'","")|replace("-","")|lower -%}
-    
-
-        <div class="row" style="padding-bottom: 10px;padding-left: 10px;">
-        
-        <div class="col-md-8">
-            <div class="card w-100" style="padding: 1%;margin: 10px;">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-
-                    <img width="300" src="{{ i['restaurant']['thumb'] }}">
-                </div>
-                <div class="col-md-4">
+    <div  id="map">
+        <script>
                 
-                        <div class="card-body">
-                        <h5 class="card-title">{{ i['restaurant']['name'] }}</h5><br> 
-                        <h6 class="card-title">Location:</h6>
-                        <p class="card-text">{{ i['restaurant']['location']['address'] }}</p><br>    
-                        <h6 class="card-title">Rating:</h6>
-                        <p class="card-text">{{ i['restaurant']['user_rating']['aggregate_rating'] }}</p>
-                        <p class="card-text">{{ i['restaurant']['user_rating']['votes'] }}+ ratings</p>
-                        </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-body">
-                        <h6 class="card-title">Cost For Two Zomato:</h6>
-                        <p class="card-text">{{ i['restaurant']['currency'] }} {{ i['restaurant']['average_cost_for_two'] }} FOR TWO</p>
-                        <button onclick="window.location.href='{{ i['restaurant']['url'] }}'" class="btn btn-primary">Visit Page</button>
-                        
-                        
-                        <h6 class="card-title">Cost For Two Swiggy:</h6>
-                        <p class="card-text">Rs. {{ k['costForTwo']//100 }} FOR TWO</p>
-                        
-                        <button onclick="window.location.href='https://www.swiggy.com/restaurants/{{ k['slugs']['restaurant'] }}-{{ k['slugs']['city'] }}-{{ k['id'] }}'" class="btn btn-primary">View Deal</button>
-                    
-                    </div>
-                </div>   
-            </div>
-            </div>
-        </div>
-        <div class="col-md-3" id="map">
-            <script>
-                var lati = {{ i['restaurant']['location']['latitude'] }};
-                var long = {{ i['restaurant']['location']['longitude'] }}
                 
                 function initMap(){
-                    var location = {lat: 20.5937, lng: 78.9629};
+                    var location = {lat: {{ lat }}, lng: {{ lon }}};
                     var map = new google.maps.Map(document.getElementById("map"),{
-                        zoom: 4,
+                        zoom: 13,
                         center: location
                     });
-                    addMarker({lat: lati, lng: long});
+                    {% for i in new %}
+                        addMarker({lat: {{ i['restaurant']['location']['latitude'] }}, lng: {{ i['restaurant']['location']['longitude'] }}});
+                    {% endfor %}
                     function addMarker(coords){
                         var marker = new google.maps.Marker({
                         position: coords,
@@ -176,6 +179,56 @@
                 
             </script>
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC44zlI2R9HH6tI1eVcahOi3sxNMD3w-9I&callback=initMap"></script>
+    </div>
+
+    {% for j in data1 %}
+    {% for k in j['restaurants'] %}
+    {% for i in new %}
+    
+    {%- if i['restaurant']['name']|replace("The","")|replace("Restaurant","")|replace("&","and")|replace("Hotel","")|replace(" ","")|replace("'","")|replace("-","")|lower == k['name']|replace("The","")|replace("Restaurant","")|replace("&","and")|replace("Hotel","")|replace(" ","")|replace("'","")|replace("-","")|lower -%}
+    
+
+        <div class="row" style="padding-bottom: 10px;padding-left: 10px;">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8"  id="block">
+            <div class="card bg-c-blue order-card w-100" style="padding: 1%;margin: 10px;">
+            <div class="row no-gutters">
+                <div class="col-md-4" id="im">
+
+                    <img style="border-radius: 5px;" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_400,h_400,c_fill/{{ k['cloudinaryImageId'] }}">
+                </div>
+                <div class="col-md-4">
+                
+                        <div class="card-body">
+                        <h5 class="card-title" style="color: #FFFFFF;"><span style="font-size: 25px;">{{ i['restaurant']['name'] }}</span></h5><br> 
+                        <h6 class="card-title" style="color: #FFFFFF;">Location:</h6>
+                        <p class="card-text" style="color: #FFFFFF;">{{ i['restaurant']['location']['address'] }}</p><br>    
+                        <h6 class="card-title" style="color: #FFFFFF;">Rating:</h6>
+                        <p class="card-text" style="color: #FFFFFF;">{{ i['restaurant']['user_rating']['aggregate_rating'] }}</p>
+                        <p class="card-text" style="color: #FFFFFF;">{{ i['restaurant']['user_rating']['votes'] }}+ ratings</p>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <h6 class="card-title" style="color: #FFFFFF;">Cost For Two Person:</h6>
+                        <p class="card-text" style="color: #FFFFFF;">Zomato offers: {{ i['restaurant']['currency'] }} {{ i['restaurant']['average_cost_for_two'] }} FOR TWO</p>
+                        <button style="background-color: #f7a54a; border-color: #f7a54a; margin-left:60px; margin-up:40px;" onclick="window.location.href='{{ i['restaurant']['url'] }}'" class="btn btn-primary">View Menu</button>
+                        
+                        <br>
+                        <br>
+                        <p class="card-text" style="color: #FFFFFF;">Swiggy offers: Rs. {{ k['costForTwo']//100 }} FOR TWO</p>
+                        
+                        <button style="background-color: #f7a54a; border-color: #f7a54a; margin-left:60px; margin-up:40px;" onclick="window.location.href='https://www.swiggy.com/restaurants/{{ k['slugs']['restaurant'] }}-{{ k['slugs']['city'] }}-{{ k['id'] }}'" class="btn btn-primary">View Menu</button>
+                    
+                    </div>
+                </div>   
+            </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+        
         </div>
     </div>
     
@@ -189,29 +242,24 @@
 
     
     <br>
-    <h1 style='font-size: 200%'>Near By Recommended Restaurants</h1><br>
-    <div class="row no-gutters">
+    <h1 style='font-size: 200%'>    Near By Recommended Restaurants</h1><br>
+    <div class="row no-gutters" style="margin: 10px;">
     <div class="items">
     {% for i in newg %}
-            <div class="card item" style="width: 25rem;">
-                <img src="{{ i['restaurant']['thumb'] }}" class="card-img-top" alt="...">
+            <div class="card item bg-c-blue" style="width: 25rem;">
+                <img style="border-radius: 5px; padding:10px;" src="{{ i['restaurant']['thumb'] }}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">{{ i['restaurant']['name'] }}</h5>
-                    <p class="card-text text-center">Cuisines :{{ i['restaurant']['cuisines'] }}</p>
-                    <div><p class="card-text text-center">Cost For Two :{{ i['restaurant']['average_cost_for_two'] }}      Rating :{{ i['restaurant']['user_rating']['aggregate_rating'] }} </p>
+                    <h5 class="card-title" style="color: #FFFFFF;">{{ i['restaurant']['name'] }}</h5>
+                    <p class="card-text text-center" style="color: #FFFFFF;">Cuisines :{{ i['restaurant']['cuisines'] }}</p>
+                    <div><p class="card-text text-center" style="color: #FFFFFF;">Cost For Two :{{ i['restaurant']['average_cost_for_two'] }}      Rating :{{ i['restaurant']['user_rating']['aggregate_rating'] }} </p>
                     </div>
-                    <div class="card-body text-center">  <button onclick="window.location.href='{{ i['restaurant']['url'] }}'" class="btn btn-primary">Visit Page</button>
+                    <div class="card-body text-center">  <button style="background-color: #f7a54a; border-color: #f7a54a;" onclick="window.location.href='{{ i['restaurant']['url'] }}'" class="btn btn-primary">Visit Page</button>
                 </div>
                 </div>
             </div> 
     {% endfor %}  
     </div>
    </div>
-
-
-    
-
-
 
     
 </body>
