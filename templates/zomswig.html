@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        Zomato
+        EasyFood
     </title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -213,13 +213,14 @@
                 <div class="col-md-4">
                     <div class="card-body">
                         <h6 class="card-title" style="color: #FFFFFF;">Cost For Two Person:</h6>
-                        <p class="card-text" style="color: #FFFFFF;">Zomato offers: {{ i['restaurant']['currency'] }} {{ i['restaurant']['average_cost_for_two'] }} FOR TWO</p>
+                        <p class="card-text" style="color: #FFFFFF; font-size:15px;">Zomato offers: {{ i['restaurant']['currency'] }} {{ i['restaurant']['average_cost_for_two'] }} FOR TWO</p>
+                        <br>
                         <button style="background-color: #f7a54a; border-color: #f7a54a; margin-left:60px; margin-up:40px;" onclick="window.location.href='{{ i['restaurant']['url'] }}'" class="btn btn-primary">View Menu</button>
                         
                         <br>
                         <br>
-                        <p class="card-text" style="color: #FFFFFF;">Swiggy offers: Rs. {{ k['costForTwo']//100 }} FOR TWO</p>
-                        
+                        <p class="card-text" style="color: #FFFFFF; font-size:15px;">Swiggy offers: Rs. {{ k['costForTwo']//100 }} FOR TWO</p>
+                        <br>
                         <button style="background-color: #f7a54a; border-color: #f7a54a; margin-left:60px; margin-up:40px;" onclick="window.location.href='https://www.swiggy.com/restaurants/{{ k['slugs']['restaurant'] }}-{{ k['slugs']['city'] }}-{{ k['id'] }}'" class="btn btn-primary">View Menu</button>
                     
                     </div>
@@ -246,7 +247,7 @@
     <div class="row no-gutters" style="margin: 10px;">
     <div class="items">
     {% for i in newg %}
-            <div class="card item bg-c-blue" style="width: 25rem;">
+            <div class="card item bg-c-blue" id="block" style="width: 25rem;">
                 <img style="border-radius: 5px; padding:10px;" src="{{ i['restaurant']['thumb'] }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title" style="color: #FFFFFF;">{{ i['restaurant']['name'] }}</h5>

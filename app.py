@@ -153,19 +153,13 @@ def index():
                 response=requests.get('https://developers.zomato.com/api/v2.1/search?lat='+lat+'&lon='+lon+'&radius=4000&q='+cuisine.lower(), headers=h,params={'user-key':'4febbc079d5c6e22700a69d421956a8d','sort':'relevance'})
                 r=response.json()
                 new=r['restaurants']
-                return render_template('zomswig.html',newg=newg,new=new,data1=data1,lat=lat,lon=lon)
-        return render_template('index.html')   
+                return render_template('zomswig.html',newg=newg,new=new,data1=data1,lat=lat,lon=lon)  
     else:
         return render_template('index.html')
 
     
-        
 
-
-
-
-
-
+#recommendations
 def recommend1():
     #load the dataset
     data = pd.read_csv('zomato.csv', encoding ='latin1')
@@ -256,8 +250,7 @@ def recommend1():
     return data_temp
 
 
-@app.route("/swiggy")
-def zomato():
+
 
     cuisine = "samosa"
     
