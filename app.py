@@ -91,6 +91,10 @@ security = Security(app, user_datastore)
 
 
 @app.route("/")
+@login_required
+def home():
+    return render_template('index.html')
+
 @app.route("/index",methods=['POST','GET'])
 def index():
     if request.method == 'POST':
